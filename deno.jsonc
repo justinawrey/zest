@@ -1,10 +1,9 @@
 {
-  "tasks": {
-    "dev": "deno run -A --watch ./examples/simple.tsx"
-  },
   "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "types": ["./types.d.ts"],
     "jsx": "react-jsx",
-    "jsxImportSource": "https://esm.sh/preact@10.10.6"
+    "jsxImportSource": "zest"
   },
   "importMap": "./import_map.json"
 }

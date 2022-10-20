@@ -1,6 +1,6 @@
 {
   "imports": {
-    "preact": "https://esm.sh/preact@10.10.6",
-    "preact/": "https://esm.sh/preact@10.10.6/"
+    "zest/jsx-runtime": "./jsx-runtime.ts",
+    "linkedom": "https://esm.sh/linkedom@0.14.17"
   }
 }
